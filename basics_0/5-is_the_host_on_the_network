@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 #salam
-ping -c 4 "$1"
+if [$#=1]; then
+    ping -c5 "$1"
